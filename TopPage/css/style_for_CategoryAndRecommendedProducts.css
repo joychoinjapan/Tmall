@@ -1,0 +1,55 @@
+div.categoryMenu{
+    width: 200px;
+    background-color: #e2e2e3;
+    margin-left: 20px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+div.categoryMenu a{
+    color: #000;
+}
+div.categoryMenu a:hover{
+    color: lightblue;
+    text-decoration: none;
+}
+div.productsAsideCategorys{
+    width: 800px;
+    height: 510px;
+    background-color: white;
+    margin-left: 220px;
+    position: absolute;
+    left: 0px;
+    top:0px;
+    z-index: 1;
+}
+
+div.productsAsideCategorys div.row{
+    margin: 20px 80px 0px 80px;
+}
+
+div.productsAsideCategorys div.seperator{
+    margin-top: 20px;
+    border-bottom: dashed 1px #e7e7e7;
+}
+div.productsAsideCategorys a{
+    color: #999;
+    font-size: 14px;
+    margin: 8px;
+}
+div.productsAsideCategorys a:hover{
+    color: #C40000;
+    text-decoration: none;
+}
+div.categoryMenu div.eachCategory{
+    line-height: 30px;
+    padding-left: 10px;
+    font-size: 14px;
+}
+div.categoryMenu div.eachCategory span{
+    margin-right: 10px;
+}
+div.categoryMenu div.eachCategory:hover{
+    background-color:white;
+}
